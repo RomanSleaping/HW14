@@ -1,0 +1,208 @@
+:root {
+  --blue-color: #2196f3;
+  --web-color2: #000000;
+  --black-color: #212121;
+  --gray-color: #757575;
+}
+/* header */
+span {
+  color: var(--blue-color);
+}
+.logo {
+  color: var(--web-color2);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+}
+header {
+  display: flex;
+  margin: 24px 0px 25px;
+  align-items: center;
+}
+header > a {
+  display: flex;
+  margin-left: 215px;
+}
+.nav-item,
+.header-item,
+.nav-list,
+.header-list {
+  display: flex;
+}
+
+.nav-list {
+  margin-left: 92px;
+}
+.header-list {
+  margin-left: 345px;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+.nav-link:hover,
+.header-link:hover {
+  color: var(--blue-color);
+}
+ul {
+  list-style: none;
+}
+body {
+  width: 1600px;
+  height: 2346px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+}
+.nav-link {
+  color: rgb(33, 33, 33);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header-link {
+  color: rgb(117, 117, 117);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+.active-link {
+  color: var(--blue-color);
+}
+.s-nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.s-nav-link {
+  color: rgb(33, 33, 33);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 3%;
+  text-align: center;
+  border-radius: 4px;
+
+  background-color: rgb(245, 244, 250);
+  padding: 6px 22px;
+}
+.s-active-link {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 3%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px 25px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  background-color: rgb(33, 150, 243);
+}
+.s-nav-item:not(:last-child) {
+  margin-right: 8px;
+}
+section nav {
+  margin-top: 96px;
+}
+figure p {
+  margin: 0px;
+}
+figcaption p {
+  color: rgb(33, 33, 33);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+
+  letter-spacing: 6%;
+  margin-top: 20px;
+}
+article {
+  box-sizing: border-box;
+  border-style: 1px solid rgb(238, 238, 238);
+  background-color: grey;
+  width: 370px;
+  height: 404px;
+  background-color: #ffffff;
+}
+figcaption p + p {
+  color: rgb(117, 117, 117);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 3%;
+  margin-top: 4px;
+}
+figure {
+  margin: 0px;
+}
+main nav + ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+main {
+  width: 1170px;
+  height: 1360px;
+  margin: 0px auto;
+}
+.s-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.s-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bobrik {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-logo {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+}
+div {
+  background-color: #2f303a;
+}
+footer > a {
+  display: block;
+  margin-left: 215px;
+  margin-bottom: 20px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1600px;
+  height: 252px;
+  background-color: #2f303a;
+  margin-top: 62px;
+}
+.address-item:not(:first-child) {
+  margin-top: 9px;
+}
+address {
+  margin-left: 215px;
+}
