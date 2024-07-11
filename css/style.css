@@ -46,7 +46,9 @@ body {
   display: flex;
   align-items: center;
 }
-
+header li a:hover {
+  color: var(--blue-color);
+}
 .header-nav-link {
   color: var(--black-color);
   line-height: calc(16 / 14);
@@ -60,11 +62,10 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
-.active {
-  color: var(--blue-color);
-}
+
 .header-flex {
   display: flex;
+  margin: 0 auto;
 }
 .header-nav {
   margin-left: 93px;
@@ -81,11 +82,18 @@ body {
 
 /* MAIN */
 
+.main {
+  width: 1600px;
+  margin: 0 auto;
+}
+
 /* hero */
+
 .hero {
   background-color: var(--hero_footer-background);
   width: 1600px;
   height: 600px;
+  margin: 0 auto;
   margin-bottom: 94px;
   display: flex;
 }
@@ -135,6 +143,7 @@ body {
 .advantage {
   height: 98px;
   width: 1600px;
+  margin: 0 auto;
   margin-bottom: 94px;
 }
 .advantage-item {
@@ -155,6 +164,7 @@ body {
   line-height: calc(42 / 36);
 }
 .about-flex {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,11 +182,13 @@ body {
 .about {
   height: 386px;
   width: 1600px;
+  margin: 0 auto;
   margin-bottom: 94px;
 }
 
 /* team  */
 .team {
+  margin: 0 auto;
   background-color: var(--our-team);
   width: 1600px;
   height: 648px;
@@ -203,6 +215,7 @@ body {
   line-height: calc(19 / 16);
 }
 .team-flex {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -233,6 +246,7 @@ body {
   width: 1600px;
   height: 252px;
   display: flex;
+  margin: 0 auto;
 }
 .accent-blue {
   color: var(--blue-color);
@@ -259,6 +273,7 @@ body {
   line-height: calc(24 / 14);
 }
 .footer-flex {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
